@@ -3,15 +3,24 @@ a {
 }
 
 /* use this background for bigger screens, and cut down to just the bird on smaller screens */
-body {
+/* body {
     position: relative;
     background-image: url("../images/Bright\ Consulting_Background.jpg");
     background-repeat:no-repeat;
     background-size:100% 100vh;
+} */
+
+
+#home {
+    min-height: 85vh;
 }
 
 .menu {
     font: white;
+}
+
+#menu {
+    background-color: black;
 }
 
 #menu_toggler {
@@ -19,24 +28,84 @@ body {
     border-color: white;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url('../images/Bright\ Consulting_Background.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:100% 100vh;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('../images/Bright\ Consulting_Background.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:100% 100vh;
+}
+
+.section {
+    border: solid;
+    border-color: white;
+    min-height: 70vh;
+}
+
+@media (min-width: 992px) { 
+    body, html {
+        height: 100%;
+        background-color: black;
+    }
+}
+
 /* put media query to switch to just the bird on mobile devices */
 @media (max-width: 767.98px) { 
-    body {
+    .landing {
         position: relative;
         background-image: url("../images/Bright\ Consulting_Logo.jpg");
         background-repeat:no-repeat;
         background-size:100% 100vh;
     }  
 
+    #home {
+        border: none;
+    }
+
     #menu {
         justify-content: left;
+        background-color: black;
+        opacity: .7;
+        /* top: 0;
+        width: 100%; */
     }
 
     #navbarNav {
        text-align: right;
     }
 
-    #logo{
-        margin-left: 25vw;
+    .parallax, .parallax2 {
+        display: none;
     }
+
+    #logo{
+        padding-left: 2vw;
+    }
+
+    .section {
+        border: none;
+    }
+
 }
