@@ -1,0 +1,42 @@
+a {
+    color: white;
+}
+
+/* use this background for bigger screens, and cut down to just the bird on smaller screens */
+body {
+    position: relative;
+    background-image: url("../images/Bright\ Consulting_Background.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
+.menu {
+    font: white;
+}
+
+#menu_toggler {
+    border: solid;
+    border-color: white;
+}
+
+/* put media query to switch to just the bird on mobile devices */
+@media (max-width: 767.98px) { 
+    body {
+        position: relative;
+        background-image: url("../images/Bright\ Consulting_Logo.jpg");
+        background-repeat:no-repeat;
+        background-size:100% 100vh;
+    }  
+
+    #menu {
+        justify-content: left;
+    }
+
+    #navbarNav {
+       text-align: right;
+    }
+
+    #logo{
+        margin-left: 25vw;
+    }
+}
