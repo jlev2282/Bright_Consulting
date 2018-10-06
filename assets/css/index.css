@@ -10,6 +10,10 @@ a {
     background-size:100% 100vh;
 } */
 
+.card-body {
+    background-color: black;
+}
+
 footer {
     text-align: center;
     color: white;
@@ -18,6 +22,10 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: black;
+}
+
+.form-group {
+    width: 95vw;
 }
 
 #home {
@@ -179,6 +187,11 @@ footer {
 
     .section1 {
         padding-top: 30vh;
+    }
+
+    .section2 {
+        max-height: 250%;
+        border: none;
     }
 
     .content {
