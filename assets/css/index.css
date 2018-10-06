@@ -72,15 +72,18 @@ footer {
 }
 
 .pic {
-    height:40vh;
+    height:55vh;
     width: auto;
+    border-radius: 5px;
 }
 
 .section {
+    color: white;
     border: solid;
     border-color: white;
     min-height: 70vh;
     background-color: black;
+    padding: 2%;
 
 }
 
@@ -131,6 +134,11 @@ footer {
     .parallax, .parallax2 {
         display: none;
     }
+    .pic {
+        height:40vh;
+        width: auto;
+        border-radius: 5px;
+    }
 
     #logo{
         padding-left: 2vw;
@@ -138,7 +146,7 @@ footer {
 
     .section {
         color: white;
-        text-align: right;
+        text-align: center;
         border: none;
     }
 
