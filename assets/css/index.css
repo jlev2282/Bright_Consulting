@@ -126,10 +126,9 @@ a {
     }
 
     .section {
-        border: none;
         color: white;
         text-align: right;
-        background-color: white;
+        border: none;
     }
 
     .section1 {
