@@ -10,9 +10,18 @@ a {
     background-size:100% 100vh;
 } */
 
+footer {
+    text-align: center;
+    color: white;
+    position: fixed;
+    height: 5vh;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
 
 #home {
-    min-height: 85vh;
+    min-height: 69vh;
 }
 
 #logo2 {
@@ -71,6 +80,8 @@ a {
     border: solid;
     border-color: white;
     min-height: 70vh;
+    background-color: black;
+
 }
 
 @media (min-width: 992px) { 
@@ -90,7 +101,7 @@ a {
     .landing {
         position: relative;
         background-image: url("../images/Bright\ Consulting_Logo.jpg");
-        background-repeat:repeat;
+        background-repeat:no-repeat;
         background-size:100% 100vh;
     }  
 
@@ -108,7 +119,7 @@ a {
     #menu {
         /* justify-content: right; */
         background-color: black;
-        opacity: .7;
+        opacity: .9;
         /* top: 0;*/
         /* width: 100%; */
     }
