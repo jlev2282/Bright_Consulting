@@ -24,6 +24,9 @@ footer {
     min-height: 69vh;
 }
 
+.landing {
+    margin-bottom: 3%;
+}
 #logo2 {
     display: none;
 }
@@ -77,6 +80,11 @@ footer {
     border-radius: 5px;
 }
 
+.promo_pic {
+    min-height: 50vh;
+    max-height: 35vh;
+}
+
 .section {
     color: white;
     border: solid;
@@ -85,6 +93,21 @@ footer {
     background-color: black;
     padding: 2%;
 
+}
+
+.section2 {
+    color: white;
+    border: solid;
+    border-color: white;
+    min-height: 20vh;
+    max-height: 80vh;
+    background-color: black;
+    padding: 2%;
+
+}
+
+.section-header {
+    text-align: center;
 }
 
 @media (min-width: 992px) { 
@@ -138,6 +161,10 @@ footer {
         height:40vh;
         width: auto;
         border-radius: 5px;
+    }
+
+    .service_card {
+        margin-bottom: 10%;
     }
 
     #logo{
